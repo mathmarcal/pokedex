@@ -63,7 +63,9 @@ li.card-pokemon .details .types .type{
     ol.pokemon{
         grid-template-columns: 1fr;
     }
-    
+    li.card-pokemon .details img{
+        height: 100px;
+    }
 }
 
 @media screen and (min-width: 576px) { 
@@ -83,8 +85,13 @@ li.card-pokemon .details .types .type{
         height: auto;
         margin: 0 auto;
     }
-    ol.pokemon{
-        grid-template-columns: repeat(4, 1fr);
+    li.card-pokemon .details img{
+        height: 100px;
     }
-    
+    li.card-pokemon{
+       font-size: 1.5rem;
+    }
+    li.card-pokemon .details .types .type{
+        font-size: 1rem;
+    }
 }

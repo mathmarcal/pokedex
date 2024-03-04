@@ -1,0 +1,33 @@
+
+REQUISIÇÃO HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon
+    ${Endreço}/${Path: Caminho de indetificação do recurso}
+
+Request Method: GET(Buscar) | POST(Inserir) | PUT(Atualizar) | DELETE(Excluir)
+
+URL: https://pokeapi.co/api/v2/pokemon/1/
+Busca por Path Params
+
+URL: https://pokeapi.co/api/v2/pokemon?type=grass&name=i
+Busca por Query String -> separar por $
+
+Request Headers: Configuração da API
+    Accept-Language:
+        pt-BR,
+        pt;q=0.9,
+        en-US;q=0.8,
+        en;q=0.7
+
+Request Body
+{
+    "name" = "teste"
+}
+
+
+Resposta da Requisição:
+    Status Code: 200 OK
+
+    Response Hedaers: Configuração da API -> Resposta
+
+    Response Body
